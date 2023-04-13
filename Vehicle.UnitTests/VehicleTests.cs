@@ -27,7 +27,7 @@ namespace Vehicle.UnitTests
 
          //A test to check if the drive method is correctly incrementing the MilesDriven property
         [Fact] 
-        public void Drive()
+        public void Test_Drive_Method()
         {
             Vehicle andysBike = new Vehicle(2, "Blue");
 
@@ -39,7 +39,7 @@ namespace Vehicle.UnitTests
 
          // A test to check if the paint method is working correctly with re-assigning the Color property. 
         [Fact] 
-        public void Paint()
+        public void Test_Paint_Method()
         {
             Vehicle andysBike = new Vehicle(2, "Blue");
             andysBike.Paint("Red");
