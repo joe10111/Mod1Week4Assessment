@@ -47,6 +47,5 @@ namespace Vehicle.UnitTests
             var expected = "Red";
             Assert.Equal(expected, andysBike.Color);
         }
-        // Add more tests here!
     }
 }
